@@ -1,8 +1,8 @@
 # PROYECTO AMIGO SECRETO - 💾💚
 
-<img width="699" height="448" alt="Desafio1" src="https://github.com/user-attachments/assets/b3810813-10d6-4029-b7b6-bac36007bc12" />
+<img width="699" height="448" alt="Desafio1" src="https://github.com/user-attachments/assets/aeef5c5d-c646-43c4-9b6f-390c72d5f1e2" />
 
-🎁 Un divertido juego web de amigo secreto con estilo hacker/Matrix.
+🎁 Un divertido juego web de amigo secreto con estilo.
 
 ---
 
