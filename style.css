@@ -1,0 +1,166 @@
+:root {
+    --color-primary: #00ff00;         /* Verde neón estilo Matrix */
+    --color-secondary: #0f0f0f;       /* Fondo muy oscuro */
+    --color-tertiary: #01fd01;        /* Verde neón claro */
+    --color-button: #00cc00;          /* Botón verde */
+    --color-button-hover: #00ff88;    /* Hover verde más brillante */
+    --color-text: #00ff00;            /* Texto principal verde */
+    --color-white: #e0ffe0;           /* Blanco verdoso */
+    --color-black: #000000;
+    --color-dark-gray: #111111;
+}
+
+/* Estilos generales */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background-color: var(--color-black);
+    color: var(--color-text);
+    font-family: "Courier New", monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+/* Banner */
+.header-banner {
+    flex: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0 0;
+}
+
+/* Sección de entrada */
+.input-section {
+    flex: 60%;
+    background-color: var(--color-dark-gray);
+    border: 2px solid var(--color-primary);
+    border-radius: 64px 64px 0 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    box-shadow: 0 0 20px #00ff00aa;
+}
+
+/* Títulos */
+.main-title {
+    font-size: 48px;
+    font-family: "Courier New", monospace;
+    font-weight: bold;
+    color: var(--color-primary);
+    text-shadow: 0 0 10px var(--color-primary);
+}
+
+.section-title {
+    font-size: 32px;
+    color: var(--color-white);
+    margin: 10px 0;
+    text-align: center;
+}
+
+/* Contenedores de entrada y botón */
+.input-wrapper {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 600px;
+    margin-top: 20px;
+}
+
+.input-name,
+.input-title {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+    border: 2px solid var(--color-primary);
+    border-radius: 25px 0 0 25px;
+    background-color: #000;
+    color: var(--color-white);
+    font-family: "Courier New", monospace;
+}
+
+/* Botones */
+button {
+    padding: 15px 30px;
+    font-family: "Courier New", monospace;
+    font-size: 16px;
+    border: 2px solid var(--color-primary);
+    border-radius: 25px;
+    background-color: var(--color-button);
+    color: #000;
+    box-shadow: 0 0 10px var(--color-primary);
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+button:hover {
+    background-color: var(--color-button-hover);
+    color: #000;
+    box-shadow: 0 0 20px var(--color-button-hover);
+}
+
+.button-add {
+    border-radius: 0 25px 25px 0;
+}
+
+ul {
+    list-style-type: none;
+    color: var(--color-primary);
+    font-family: "Courier New", monospace;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.result-list {
+    margin-top: 15px;
+    color: var(--color-tertiary);
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+    text-shadow: 0 0 5px var(--color-tertiary);
+}
+
+.button-draw,
+.button-clear {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    background-color: transparent;
+    color: var(--color-primary);
+    font-size: 20px;
+    margin-top: 10px;
+    border: 2px solid var(--color-primary);
+    border-radius: 25px;
+    box-shadow: 0 0 10px var(--color-primary);
+}
+
+.button-draw:hover,
+.button-clear:hover {
+    background-color: var(--color-primary);
+    color: #000;
+    box-shadow: 0 0 20px var(--color-primary);
+}
+
+.button-draw img {
+    margin-right: 10px;
+}
+
+.button-clear img {
+    margin-right: 10px;
+}
